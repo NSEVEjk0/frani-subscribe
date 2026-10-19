@@ -1,0 +1,25 @@
+{
+  "name": "frani-subscribe",
+  "version": "1.0.0",
+  "description": "Recurring payments with consent — periodic invoices until cancelled. Made by CRYPTFRANI.",
+  "type": "module",
+  "bin": {
+    "frani-subscribe": "bin/frani-subscribe.js"
+  },
+  "scripts": {
+    "start": "node bin/frani-subscribe.js daemon",
+    "new": "node bin/frani-subscribe.js new",
+    "list": "node bin/frani-subscribe.js list",
+    "about": "node bin/frani-subscribe.js about",
+    "help": "node bin/frani-subscribe.js help",
+    "test": "node test/frani-subscribe.test.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@unicitylabs/sphere-sdk": "0.17.3",
+    "ws": "^8.21.3"
+  }
+}

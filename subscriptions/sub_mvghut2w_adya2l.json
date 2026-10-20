@@ -1,0 +1,13 @@
+{
+  "id": "sub_mvghut2w_adya2l",
+  "payer": "0xP",
+  "payee": "0xE",
+  "amount": "10",
+  "cadence": "weekly",
+  "start": "2026-10-20T09:41:52.184Z",
+  "nextDue": "2026-10-20T09:41:52.184Z",
+  "active": true,
+  "paidRounds": [],
+  "createdAt": "2026-10-20T09:41:52.184Z",
+  "updatedAt": 1792489312184
+}
